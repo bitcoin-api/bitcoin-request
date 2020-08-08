@@ -1,0 +1,43 @@
+{
+  "name": "bitcoin-request",
+  "version": "1.0.0",
+  "description": "Do Bitcoin request on Bitcoin node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoin-api/bitcoin-request.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "node",
+    "execa",
+    "helper",
+    "simple",
+    "quick",
+    "bitcoin-core",
+    "core",
+    "btc"
+  ],
+  "author": "Michael Stecky-Efantis",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bitcoin-api/bitcoin-request/issues"
+  },
+  "homepage": "https://github.com/bitcoin-api/bitcoin-request#readme",
+  "dependencies": {
+    "execa": "^4.0.3"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/bitcoin-api"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/bitcoinapi"
+    }
+  ]
+}
