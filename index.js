@@ -2,7 +2,7 @@
 
 const execa = require( 'execa' );
 
-const isLivenetMode = (process.env.BITCOIN_REQUEST_ENV === 'livenet');
+const isLivenetMode = (process.env.BITCOIN_REQUEST_MODE === 'livenet');
 
 
 module.exports = Object.freeze(({
